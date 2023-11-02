@@ -5,7 +5,7 @@ from streamlit_lottie import st_lottie
 
 im = Image.open("image/favicon.ico")
 
-st.set_page_config( page_title="Our Webpage", page_icon=im,layout="wide" )
+st.set_page_config( page_title="AshEcho", page_icon=im,layout="wide" )
 
 def load_lottieurl(url):
     r = requests.get(url)
@@ -99,7 +99,7 @@ with st.container():
 
 
     contact_form = """
-    <form action="https://formsubmit.co/ashwatha009@gmail.com" method="POST">
+    <form action="https://formsubmit.co/ashecho006@gmail.com" method="POST">
          <input type="hidden" name="_captcha" value="false">
          <input type="text" name="name" placeholder="Your Name" required>
          <input type="email" name="email" placeholder="Your Email" required>
