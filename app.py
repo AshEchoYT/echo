@@ -5,7 +5,7 @@ from streamlit_lottie import st_lottie
 
 im = Image.open("image/favicon.ico")
 
-st.set_page_config( page_title="AshEcho", page_icon=im,layout="wide" )
+st.set_page_config( page_title="Our Webpage", page_icon=im,layout="wide" )
 
 def load_lottieurl(url):
     r = requests.get(url)
@@ -21,13 +21,13 @@ def local_styl(file_name):
 local_styl("style/style.css")
 
 #----- Assets-----
-lottie_coding = load_lottieurl("https://lottie.host/00fd5679-73a2-4b92-89a9-3a870fbfe9d1/5xuq0oy9xg.json")
+lottie_coding = load_lottieurl("https://lottie.host/d53e5a22-d0e5-4b83-a4c9-54fd28c721f6/79CSlksefb.json")
 img_mc1 = Image.open("image/ep 1.jpg")
 img_mc2 = Image.open("image/ep 2.jpg")
 
 #-----HEADER SECTION----
 with st.container():
-    st.subheader("Hi, we are ash,anush and surya :wave:")
+    st.subheader("Hi, we are ash,anush,surya and sabari :wave:")
     st.title("We are students of DRNKVV")
     st.write("We are passionate about learning pythons and finding new ways to integrate in our day-to-day life")
     st.write("[Learn More>](https://ashecho.blogspot.com/)")
@@ -43,8 +43,8 @@ with st.container():
             In our diverse team, 
             - Ash takes the lead as a dynamic YouTuber with a talent for creating gaming and informative content. With impressive video editing skills and a deep love for gaming, he ensures your content is not only engaging but also informative.
             - Anush brings his unique blend of humor and athleticism to the table, making him a versatile asset for any project. His knack for sports and commitment to his studies make him an all-rounder, and he's also known to create quirky emojis for added fun.
-            - Surya, a true jack-of-all-trades, is a former taekwondo champion with a strong academic record. He adds a touch of uniqueness to our team as a dedicated "weeb" and brings his diverse skills to every project he's involved in.
-
+            - Surya, a talented teammate to our wonderful team
+            - Sabari Sundaresan also who is a ronaldo fan and he also as a strong academic record 
             These three talented individuals are the driving force behind our portfolio blog, and they are ready to bring their expertise to your new project.
             """
         )
@@ -99,7 +99,7 @@ with st.container():
 
 
     contact_form = """
-    <form action="https://formsubmit.co/ashecho006@gmail.com" method="POST">
+    <form action="https://formsubmit.co/ashwatha009@gmail.com" method="POST">
          <input type="hidden" name="_captcha" value="false">
          <input type="text" name="name" placeholder="Your Name" required>
          <input type="email" name="email" placeholder="Your Email" required>
